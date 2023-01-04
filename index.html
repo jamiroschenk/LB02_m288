@@ -11,22 +11,28 @@
 <main>
     <header>
         <h1>Währungsrechner</h1>
-        <h2>Rechne deine Währung um:</h2>
     </header>
     <body>
-    <form id="person">
-        <label for="Betrag">Betrag</label>
-        <input name="Betrag" id="Betrag" maxlength="30">
-
-        <label for="Ursprungswährung">Ursprungswährung</label>
-        <input name="Ursprungswährung" id="Ursprungswährung" maxlength="30">
-
-        <label for="Währung wählen">Währung wählen</label>
-        <input name="Währung wählen" id="Währung wählen" maxlength="40">
-
-        <label for="Ergebnis">Ergebnis</label>
-        <input name="Ergebnis" id="Ergebnis" maxlength="40">
-    </form>
+    <div class="container">
+        <h2 class="heading">Währungsrechner</h2>
+        <div> class="rate">
+            <div class="rate1"></div>
+            <div class="rate2"></div>
+        </div>
+        <div> class="main">
+            <div> class="initial">
+                <div> class="options"><select></select></div>
+                <div> class=="input"><input type="number"></div>
+            </div>
+            <span> class="material-icons swap" style="font-size: 25px;">
+                swap_horiz
+            </span>
+            <div> class="target">
+                <div> class="options"><select></select></div>
+                <div> class=="input"><input  disabled type="number"></div>
+            </div>
+        </div>
+    </div>
     </body>
 </main>
 </body>
