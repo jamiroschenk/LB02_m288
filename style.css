@@ -11,8 +11,27 @@ h2 {
     background-color: lightblue;
     margin-left: 10px;
 }
+body{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    algin-items: center;
+    overflow: hidden;
+}
 
-*  {
+. container{
+    background-color: white;
+    width: 470px;
+    height: 360px;
+    padding: 70px;
+    border-radius: 5px;
+    font-family: "Roboto";
+}
+
+.heading{
+    color: rebeccapurple;
+    textransform: uppercase
 
 }
+
 
