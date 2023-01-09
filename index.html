@@ -4,38 +4,28 @@
     <meta charset="utf-8">
     <title>Währungsrechner</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="javascript" href="JavaScript_LB02.js">
     <link rel="icon" type="image/x-icon" href="./münze.png">
+    <script src="./JavaScript_LB02.js" defer></script>
 </head>
 <body>
-<main>
     <header>
         <h1>Währungsrechner</h1>
+        <h2>rechne die Währung um</h2>
     </header>
-    <body>
-    <div class="container">
-        <h2 class="heading">Rechne deine Währung um</h2>
-        <div> class="rate">
-            <div class="rate1"></div>
-            <div class="rate2"></div>
-        </div>
-        <div> class="main">
-            <div> class="initial">
-                <div> class="options"><select></select></div>
-                <div> class=="input"><input type="number"></div>
-            </div>
-            <span> class="material-icons swap" style="font-size: 25px;">
-                swap_horiz
-            </span>
-            <div> class="target">
-                <div> class="options"><select></select></div>
-                <div> class=="input"><input  disabled type="number"></div>
-            </div>
-
-        </div>
-    </div>
-    <script src="./JavaScript_LB02.js"></script>
-    </body>
-</main>
+    <main>
+        <input type="number" placeholder="Betrag">
+        <select>
+            <option value="Währung">Währung</option>
+            <option value="CHF">CHF</option>
+            <option value="EUR">EUR</option>
+        </select>
+        <br>
+        <input type="text" placeholder="Endbetrag" readonly>
+        <select>
+            <option value="Währung">Währung</option>
+            <option value="CHF">CHF</option>
+            <option value="EUR">EUR</option>
+        </select>
+    </main>
 </body>
 </html>
